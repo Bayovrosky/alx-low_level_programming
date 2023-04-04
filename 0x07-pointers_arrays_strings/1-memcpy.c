@@ -1,16 +1,13 @@
-#ifndef _MEMCPY_H_
-#define _MEMCPY_H_
-
-#include <stddef.h>
+#include "main.h"
 
 /**
- * _memcpy - Copies n bytes from memory area src to memory area dest.
+ * _memcpy - Copies n bytes from the memory area src to the memory area dest.
  *
  * @dest: A pointer to the memory area to copy to.
  * @src: A pointer to the memory area to copy from.
- * @n: The number of bytes to copy.
+ * @n: The number of bytes to copy from src to dest.
  *
- * Return: A pointer to the destination memory area.
+ * Return: A pointer to the copied memory area @dest.
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
