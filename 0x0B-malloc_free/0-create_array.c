@@ -1,12 +1,15 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * create array - create an array of  size and assign char c
- * @size: size of arrays.
- * @c: char to assign.
- * Description: create array of size size and assign char c.
- * Return: pointer to array, NULL if fail.
+ * create_array - creates an array of char and init it with a specific char
+ * @size: the size of the array to create
+ * @c: the character to initialize the array with
  *
+ * Description: This function creates an array of size "size" and initializes
+ *              all its elements to the character "c". It returns a pointer
+ *              to the created array, or NULL if the function fails.
+ *
+ * Return: a pointer to the created array, or NULL if the function fails
  */
 char *create_array(unsigned int size, char c)
 {
