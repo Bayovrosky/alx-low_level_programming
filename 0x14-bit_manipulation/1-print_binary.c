@@ -21,3 +21,6 @@ void print_binary(unsigned long int n)
 		else if (count)
 			_putchar('0');
 	}
+	if (!count)
+		_putchar('0');
+}
